@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5645" started-at="2020-12-12T16:33:15Z" finished-at="2020-12-12T16:33:20Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5645" started-at="2020-12-12T16:33:15Z" finished-at="2020-12-12T16:33:20Z">
+      <class name="com.busyqa.testScripts.TS_LoginPage_001">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@27d415d9]" name="init" is-config="true" duration-ms="8127" started-at="2020-12-12T16:33:07Z" finished-at="2020-12-12T16:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="test_login_1(java.lang.String, java.lang.String)[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@27d415d9]" name="test_login_1" duration-ms="1127" started-at="2020-12-12T16:33:15Z" data-provider="invalidUserPass" finished-at="2020-12-12T16:33:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_1 -->
+        <test-method status="PASS" signature="test_login_1(java.lang.String, java.lang.String)[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@27d415d9]" name="test_login_1" duration-ms="1053" started-at="2020-12-12T16:33:16Z" data-provider="invalidUserPass" finished-at="2020-12-12T16:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_1 -->
+        <test-method status="PASS" signature="test_login_1(java.lang.String, java.lang.String)[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@27d415d9]" name="test_login_1" duration-ms="1041" started-at="2020-12-12T16:33:18Z" data-provider="invalidUserPass" finished-at="2020-12-12T16:33:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_1 -->
+        <test-method status="PASS" signature="test_login_2(java.lang.String, java.lang.String)[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@27d415d9]" name="test_login_2" duration-ms="1576" started-at="2020-12-12T16:33:19Z" data-provider="validUserPass" finished-at="2020-12-12T16:33:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username@hello.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_login_2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@27d415d9]" name="teardown" is-config="true" duration-ms="720" started-at="2020-12-12T16:33:20Z" finished-at="2020-12-12T16:33:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.busyqa.testScripts.TS_LoginPage_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
