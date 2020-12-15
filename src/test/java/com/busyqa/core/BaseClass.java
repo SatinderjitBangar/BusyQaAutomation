@@ -24,26 +24,27 @@ public class BaseClass {
 	public static Properties config = new Properties();
 	public static WebDriver driver = null;
 	public static ExcelUtility excelUtility=null;
-	String log4jConfPath = System.getProperty("user.dir")+"\\resources\\properties\\log4j.properties";
+	static String log4jConfPath = System.getProperty("user.dir")+"\\resources\\properties\\log4j.properties";
 	public static Logger logObject = Logger.getLogger("qaLogger");
 	public ExtentReports rep = ExtentManager.getInstance();
 	public static ExtentTest extentObject;
-	public Actions action;
-	
+	public static Actions action;
+
 	@BeforeSuite
-	public void init()
+	public static void init()
 	{
 		PropertyConfigurator.configure(log4jConfPath);
 		driver=DriverUtility.getInstance().getDriver();
-		//driver.get("http://automationpractice.com/index.php");
-		driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
 		excelUtility=new ExcelUtility(System.getProperty("user.dir")+"\\resources\\excel\\TestData.xlsx");
+		action = new Actions(driver);
+		driver.get("https://www.myntra.com/");
 		// Global implicit Wait
-		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.manage().window().maximize();
 	}
 	
 	@AfterSuite
-	public void teardown()
+	public static void teardown()
 	{
 		if(driver!=null)
 			driver.quit();

@@ -15,7 +15,7 @@ public class HomePageObject {
 
 	
 	public WebElement getSignInLink() {
-		return driver.findElement(By.partialLinkText("Sign In"));
+		return driver.findElement(By.partialLinkText("Sign in"));
 	}
 	public WebElement getContactUsLink() {
 		return driver.findElement(By.linkText("Contact us"));

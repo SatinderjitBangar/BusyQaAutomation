@@ -1,36 +1,13 @@
-11:33:15,240 DEBUG qaLogger:41 - login Page Webelements instantiated
-11:33:15,360  INFO qaLogger:44 - Entering Username user
-11:33:15,496  INFO qaLogger:47 - Entering Password pass
-11:33:16,311 DEBUG qaLogger:49 - Sign in button clicked
-11:33:16,387 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
-11:33:16,390 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
-11:33:16,393 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-11:33:16,395 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-11:33:16,396 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-11:33:16,850 DEBUG qaLogger:41 - login Page Webelements instantiated
-11:33:17,052  INFO qaLogger:44 - Entering Username user@gmail.com
-11:33:17,140  INFO qaLogger:47 - Entering Password 
-11:33:17,884 DEBUG qaLogger:49 - Sign in button clicked
-11:33:17,902 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
-11:33:17,903 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
-11:33:17,903 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-11:33:17,908 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-11:33:17,909 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-11:33:18,010 DEBUG qaLogger:41 - login Page Webelements instantiated
-11:33:18,095  INFO qaLogger:44 - Entering Username 
-11:33:18,260  INFO qaLogger:47 - Entering Password password
-11:33:19,035 DEBUG qaLogger:49 - Sign in button clicked
-11:33:19,049 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
-11:33:19,050 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
-11:33:19,051 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-11:33:19,053 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-11:33:19,053 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-11:33:19,154 DEBUG qaLogger:41 - login Page Webelements instantiated
-11:33:19,434  INFO qaLogger:44 - Entering Username username@hello.com
-11:33:19,610  INFO qaLogger:47 - Entering Password password
-11:33:20,713 DEBUG qaLogger:49 - Sign in button clicked
-11:33:20,730 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
-11:33:20,730 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
-11:33:20,731 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-11:33:20,732 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-11:33:20,732 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+08:27:17,213  INFO qaLogger:27 - Hovering Mouse to Men link in the menu
+08:27:18,803  INFO qaLogger:31 - Selecting Casual Shirts from dropdown
+08:27:19,029  INFO qaLogger:41 - Selecting Shirt number 3 from list and switching window
+08:27:21,182  INFO qaLogger:49 - Clicking add to cart without selecting size and waiting for error to show up
+08:27:21,286  INFO qaLogger:57 - Clicking on a Random available size
+08:27:21,380  INFO qaLogger:63 - Clicking on add to cart button and saving the product desc in a variable
+08:27:22,514  INFO qaLogger:68 - Explicitly waiting for button test to change to GO TO BAG and then opening the bag
+08:27:22,522 DEBUG qaLogger:72 - Checking if control redirected to the cart page
+08:27:22,572 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+08:27:22,573 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+08:27:22,574 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+08:27:22,576 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+08:27:22,576 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

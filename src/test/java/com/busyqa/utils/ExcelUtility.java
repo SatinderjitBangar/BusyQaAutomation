@@ -44,7 +44,6 @@ public class ExcelUtility {
 		ws = wb.getSheet("valid_creds");
 		rowNum = ws.getLastRowNum() + 1; // Row num is index based
 		colNum = ws.getRow(0).getLastCellNum(); // ALready have +1 in it
-		System.out.println(rowNum + " " + colNum);
 		String[][] credentials = new String[rowNum][colNum];
 		for (int i = 0; i < rowNum; i++) {
 			for (int j = 0; j < colNum; j++) {
@@ -59,7 +58,6 @@ public class ExcelUtility {
 		ws = wb.getSheet("invalid_creds");
 		rowNum = ws.getLastRowNum() + 1; // Row num is index based
 		colNum = ws.getRow(0).getLastCellNum(); // ALready have +1 in it
-		System.out.println(rowNum + " " + colNum);
 		String[][] credentials = new String[rowNum][colNum];
 		for (int i = 0; i < rowNum; i++) {
 			for (int j = 0; j < colNum; j++) {
@@ -70,9 +68,9 @@ public class ExcelUtility {
 					continue;
 				}
 				credentials[i][j] = ws.getRow(i).getCell(j).getStringCellValue();
-				System.out.print(credentials[i][j]);
+			
 			}
-			System.out.println();
+			
 		}
 		return credentials;
 	}

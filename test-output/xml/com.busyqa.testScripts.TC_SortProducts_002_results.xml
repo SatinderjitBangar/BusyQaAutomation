@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="12.509">
+  <properties />
+  
+  
+            <testcase name="highToLow" time="7.618" classname="com.busyqa.testScripts.TC_SortProducts_002" />
+                <testcase name="lowtoHigh" time="4.891" classname="com.busyqa.testScripts.TC_SortProducts_002" />
+      
+</testsuite>

@@ -15,7 +15,16 @@ public class TS_LoginPage_001 extends BaseClass{
 	
 	LoginPageFactory loginObject;
 	HomePageObject homeObject;
-
+	@BeforeClass
+	public void loginInit()
+	{
+		driver.get("http://automationpractice.com/index.php");
+		homeObject=new HomePageObject(driver);
+		homeObject.getSignInLink().click();
+			logObject.debug("Home page Webelements intantiated");
+		loginObject= new LoginPageFactory(driver);
+			logObject.debug("login Page Webelements instantiated");
+	}
 	
 	//Negative Test Case
 	@Test(dataProvider = "invalidUserPass",dataProviderClass = Utilities.class)
@@ -24,6 +33,12 @@ public class TS_LoginPage_001 extends BaseClass{
 		doLogin(username,password);
 		String actualTitle=driver.getTitle();
 		Assert.assertNotEquals(actualTitle,"My account - My Store");
+	}
+	
+	@AfterClass
+	public void loginTeardown()
+	{
+		driver.get("https://www.myntra.com/men-casual-shirts?plaEnabled=false");
 	}
 	
 	@Test(dataProvider = "validUserPass",dataProviderClass = Utilities.class)
@@ -37,8 +52,6 @@ public class TS_LoginPage_001 extends BaseClass{
 	public void doLogin(String username, String password)
 	{
 		
-		loginObject= new LoginPageFactory(driver);
-			logObject.debug("login Page Webelements instantiated");
 		loginObject.getUsernameTextbox().clear();
 		loginObject.getUsernameTextbox().sendKeys(username);
 		extentObject.log(LogStatus.INFO, "Entered Username");

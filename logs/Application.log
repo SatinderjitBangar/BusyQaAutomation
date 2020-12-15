@@ -1,16 +1,8 @@
-12/12/2020 11:33:15 qaLogger login Page Webelements instantiated
-12/12/2020 11:33:15 qaLogger Entering Username user
-12/12/2020 11:33:15 qaLogger Entering Password pass
-12/12/2020 11:33:16 qaLogger Sign in button clicked
-12/12/2020 11:33:16 qaLogger login Page Webelements instantiated
-12/12/2020 11:33:17 qaLogger Entering Username user@gmail.com
-12/12/2020 11:33:17 qaLogger Entering Password 
-12/12/2020 11:33:17 qaLogger Sign in button clicked
-12/12/2020 11:33:18 qaLogger login Page Webelements instantiated
-12/12/2020 11:33:18 qaLogger Entering Username 
-12/12/2020 11:33:18 qaLogger Entering Password password
-12/12/2020 11:33:19 qaLogger Sign in button clicked
-12/12/2020 11:33:19 qaLogger login Page Webelements instantiated
-12/12/2020 11:33:19 qaLogger Entering Username username@hello.com
-12/12/2020 11:33:19 qaLogger Entering Password password
-12/12/2020 11:33:20 qaLogger Sign in button clicked
+15/12/2020 08:27:17 qaLogger Hovering Mouse to Men link in the menu
+15/12/2020 08:27:18 qaLogger Selecting Casual Shirts from dropdown
+15/12/2020 08:27:19 qaLogger Selecting Shirt number 3 from list and switching window
+15/12/2020 08:27:21 qaLogger Clicking add to cart without selecting size and waiting for error to show up
+15/12/2020 08:27:21 qaLogger Clicking on a Random available size
+15/12/2020 08:27:21 qaLogger Clicking on add to cart button and saving the product desc in a variable
+15/12/2020 08:27:22 qaLogger Explicitly waiting for button test to change to GO TO BAG and then opening the bag
+15/12/2020 08:27:22 qaLogger Checking if control redirected to the cart page

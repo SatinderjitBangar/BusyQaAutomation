@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.766">
+  <properties />
+  
+  
+            <testcase name="addToCart" time="5.766" classname="com.busyqa.testScripts.TC_AddToCart_003" />
+      
+</testsuite>

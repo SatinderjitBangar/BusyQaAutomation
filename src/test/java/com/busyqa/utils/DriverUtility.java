@@ -11,7 +11,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 public class DriverUtility {
-	static DriverUtility driverUtility;
+	static DriverUtility driverUtility=null;
 	WebDriver driver;
 
 	private DriverUtility() { //Implementation of Singleton class 

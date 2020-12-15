@@ -13,6 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.DataProvider;
 
 import com.busyqa.core.BaseClass;
+import com.busyqa.pageObjects.MyntraProductPage;
 
 public class Utilities extends BaseClass{
 	public static String screenshotPath;
@@ -30,12 +31,19 @@ public class Utilities extends BaseClass{
 
 	}
 	
-	/****************** SORT PRODUCTS UTILITIES ******************************/
+	/******************************************//******************************************/
+	/******************************************//******************************************/
+	/******************************************//******************************************/
+									/* SORT PRODUCT UTILITIES*/
+	/******************************************//******************************************/
+	/******************************************//******************************************/
+	/******************************************//******************************************/
 	
 	public static int convertPriceToInt(String priceDivValue)
 	{
 		return Integer.parseInt((priceDivValue.replaceFirst("Rs. ","")).replaceFirst("Rs..*", ""));
 	}
+	
 	
 	public static boolean verifyOrder(List<WebElement> productprices, String order) throws InterruptedException
 	{
@@ -52,9 +60,6 @@ public class Utilities extends BaseClass{
 					continue;
 				}else
 				{
-					System.out.println("value of temp2 "+temp2);
-					System.out.println("value of temp "+ temp);
-					System.out.println(!(temp2>=temp));
 					if(!(temp2>=temp))
 					{
 						((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);window.scrollBy(0,-300);", e);
@@ -88,13 +93,51 @@ public class Utilities extends BaseClass{
 
 		return true;
 	}
+	/******************************************//******************************************/
+	/******************************************//******************************************/
+	/******************************************//******************************************/
+									/* FILTER PRODUCT UTILITIES*/
+	/******************************************//******************************************/
+	/******************************************//******************************************/
+	/******************************************//******************************************/
 	
+	public static int lowerSelectedVal(String selectedFilter)
+	{
+		
+		return Integer.parseInt((selectedFilter.replaceFirst("RS. ","")).replaceFirst(" TO.*", ""));
+	}
 	
+	public static int higherSelectedVal(String selectedFilter)
+	{
+		
+		return Integer.parseInt(((selectedFilter.substring(selectedFilter.lastIndexOf("RS."),selectedFilter.length())).replaceFirst("RS. ","")).replaceAll("\\(.*", ""));
+	}
 	
-	/* 
-	** DATA PROVIDERS **
-	** DATA PROVIDERS **
-	*/
+	public static boolean verifyPriceFilter(List<WebElement> filter,int lowerVal,int higherVal)
+	{
+		for(WebElement e:filter)
+		{
+			int temp=Integer.parseInt(((e.getText()).replaceFirst("Rs. ","")).replaceFirst("Rs..*", ""));
+			
+			if(temp<=higherVal && temp>=lowerVal )
+			{
+				
+			}
+			else
+			{
+				return false;
+			}
+		}	
+		return true;
+	}
+	
+	/******************************************//******************************************/
+	/******************************************//******************************************/
+	/******************************************//******************************************/
+									/* DATA PROVIDERS*/
+	/******************************************//******************************************/
+	/******************************************//******************************************/
+	/******************************************//******************************************/
 	@DataProvider (name="validUserPass")
 	public Object[][] credentialsProvider() throws IOException
 	{
