@@ -1,13 +1,13 @@
-08:27:17,213  INFO qaLogger:27 - Hovering Mouse to Men link in the menu
-08:27:18,803  INFO qaLogger:31 - Selecting Casual Shirts from dropdown
-08:27:19,029  INFO qaLogger:41 - Selecting Shirt number 3 from list and switching window
-08:27:21,182  INFO qaLogger:49 - Clicking add to cart without selecting size and waiting for error to show up
-08:27:21,286  INFO qaLogger:57 - Clicking on a Random available size
-08:27:21,380  INFO qaLogger:63 - Clicking on add to cart button and saving the product desc in a variable
-08:27:22,514  INFO qaLogger:68 - Explicitly waiting for button test to change to GO TO BAG and then opening the bag
-08:27:22,522 DEBUG qaLogger:72 - Checking if control redirected to the cart page
-08:27:22,572 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
-08:27:22,573 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
-08:27:22,574 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-08:27:22,576 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-08:27:22,576 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:52:13,345  INFO qaLogger:27 - Hovering Mouse to Men link in the menu
+23:52:15,280  INFO qaLogger:31 - Selecting Casual Shirts from dropdown
+23:52:15,454  INFO qaLogger:41 - Selecting Shirt number 3 from list and switching window
+23:52:17,574  INFO qaLogger:49 - Clicking add to cart without selecting size and waiting for error to show up
+23:52:17,670  INFO qaLogger:57 - Clicking on a Random available size
+23:52:17,748  INFO qaLogger:63 - Clicking on add to cart button and saving the product desc in a variable
+23:52:19,295  INFO qaLogger:68 - Explicitly waiting for button test to change to GO TO BAG and then opening the bag
+23:52:19,300 DEBUG qaLogger:72 - Checking if control redirected to the cart page
+23:52:19,345 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+23:52:19,346 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+23:52:19,346 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+23:52:19,347 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:52:19,347 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
