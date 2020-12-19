@@ -17,8 +17,11 @@ public class ExtentManager {
 	public static ExtentReports getInstance(){
 		
 		if(extent==null){
-			extent = new ExtentReports(System.getProperty("user.dir")+"\\target\\surefire-reports\\html\\extent.html",true,DisplayOrder.OLDEST_FIRST);
+			//extent = new ExtentReports(System.getProperty("user.dir")+"\\target\\surefire-reports\\html\\extent.html",true,DisplayOrder.OLDEST_FIRST);
+			extent = new ExtentReports("C:\\Users\\Satt-E\\.jenkins\\workspace\\GitTest\\target\\sunfire-reports\\html\\extent.html",true,DisplayOrder.OLDEST_FIRST);
 			extent.loadConfig(new File(System.getProperty("user.dir")+"\\resources\\extentconfig\\ReportsConfig.xml"));
+			
+			
 		}
 		
 		return extent;
