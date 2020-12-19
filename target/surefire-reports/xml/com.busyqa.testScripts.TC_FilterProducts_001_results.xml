@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="7.007">
+           time="7.561">
   <properties />
   
   
-            <testcase name="priceFilterTest" time="7.007" classname="com.busyqa.testScripts.TC_FilterProducts_001" />
+            <testcase name="priceFilterTest" time="7.561" classname="com.busyqa.testScripts.TC_FilterProducts_001" />
       
 </testsuite>

@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.193">
+           time="4.746">
   <properties />
   
   
-            <testcase name="addToCart" time="5.193" classname="com.busyqa.testScripts.TC_AddToCart_003" />
+            <testcase name="addToCart" time="4.746" classname="com.busyqa.testScripts.TC_AddToCart_003" />
       
 </testsuite>

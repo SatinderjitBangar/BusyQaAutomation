@@ -2,56 +2,56 @@
 <testng-results ignored="4" total="12" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-19T02:40:00Z" name="Suite" finished-at="2020-12-19T02:40:25Z" duration-ms="25652">
+  <suite started-at="2020-12-19T04:22:01Z" name="Suite" finished-at="2020-12-19T04:22:27Z" duration-ms="25631">
     <groups>
     </groups>
-    <test started-at="2020-12-19T02:40:00Z" name="Test" finished-at="2020-12-19T02:40:25Z" duration-ms="25652">
+    <test started-at="2020-12-19T04:22:01Z" name="Test" finished-at="2020-12-19T04:22:27Z" duration-ms="25631">
       <class name="com.busyqa.testScripts.TC_SortProducts_002">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.busyqa.testScripts.TC_SortProducts_002@3eb81efb]" started-at="2020-12-19T02:39:54Z" name="init" finished-at="2020-12-19T02:40:00Z" duration-ms="5179" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.busyqa.testScripts.TC_SortProducts_002@3eb81efb]" started-at="2020-12-19T04:21:56Z" name="init" finished-at="2020-12-19T04:22:01Z" duration-ms="4629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="highToLow()[pri:0, instance:com.busyqa.testScripts.TC_SortProducts_002@3eb81efb]" started-at="2020-12-19T02:40:00Z" name="highToLow" finished-at="2020-12-19T02:40:08Z" duration-ms="8367" status="PASS">
+        <test-method signature="highToLow()[pri:0, instance:com.busyqa.testScripts.TC_SortProducts_002@3eb81efb]" started-at="2020-12-19T04:22:01Z" name="highToLow" finished-at="2020-12-19T04:22:09Z" duration-ms="8248" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- highToLow -->
-        <test-method signature="lowtoHigh()[pri:0, instance:com.busyqa.testScripts.TC_SortProducts_002@3eb81efb]" started-at="2020-12-19T02:40:08Z" name="lowtoHigh" finished-at="2020-12-19T02:40:13Z" depends-on-methods="com.busyqa.testScripts.TC_SortProducts_002.highToLow" duration-ms="4861" status="PASS">
+        <test-method signature="lowtoHigh()[pri:0, instance:com.busyqa.testScripts.TC_SortProducts_002@3eb81efb]" started-at="2020-12-19T04:22:09Z" name="lowtoHigh" finished-at="2020-12-19T04:22:14Z" depends-on-methods="com.busyqa.testScripts.TC_SortProducts_002.highToLow" duration-ms="4863" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lowtoHigh -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.busyqa.testScripts.TC_SortProducts_002@3eb81efb]" started-at="2020-12-19T02:40:25Z" name="teardown" finished-at="2020-12-19T02:40:26Z" duration-ms="623" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.busyqa.testScripts.TC_SortProducts_002@3eb81efb]" started-at="2020-12-19T04:22:27Z" name="teardown" finished-at="2020-12-19T04:22:27Z" duration-ms="628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.busyqa.testScripts.TC_SortProducts_002 -->
       <class name="com.busyqa.testScripts.TC_AddToCart_003">
-        <test-method signature="addToCart()[pri:0, instance:com.busyqa.testScripts.TC_AddToCart_003@6cdba6dc]" started-at="2020-12-19T02:40:20Z" name="addToCart" finished-at="2020-12-19T02:40:25Z" duration-ms="5193" status="PASS">
+        <test-method signature="addToCart()[pri:0, instance:com.busyqa.testScripts.TC_AddToCart_003@6cdba6dc]" started-at="2020-12-19T04:22:22Z" name="addToCart" finished-at="2020-12-19T04:22:27Z" duration-ms="4746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
       </class> <!-- com.busyqa.testScripts.TC_AddToCart_003 -->
       <class name="com.busyqa.testScripts.TC_FilterProducts_001">
-        <test-method signature="priceFilterTest()[pri:0, instance:com.busyqa.testScripts.TC_FilterProducts_001@1ae8bcbc]" started-at="2020-12-19T02:40:13Z" name="priceFilterTest" finished-at="2020-12-19T02:40:20Z" duration-ms="7007" status="PASS">
+        <test-method signature="priceFilterTest()[pri:0, instance:com.busyqa.testScripts.TC_FilterProducts_001@1ae8bcbc]" started-at="2020-12-19T04:22:14Z" name="priceFilterTest" finished-at="2020-12-19T04:22:22Z" duration-ms="7561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- priceFilterTest -->
       </class> <!-- com.busyqa.testScripts.TC_FilterProducts_001 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
-  <suite started-at="2020-12-19T02:40:30Z" name="Suite (0)" finished-at="2020-12-19T02:40:38Z" duration-ms="7683">
+  <suite started-at="2020-12-19T04:22:31Z" name="Suite (0)" finished-at="2020-12-19T04:22:38Z" duration-ms="6930">
     <groups>
     </groups>
-    <test started-at="2020-12-19T02:40:30Z" name="Test" finished-at="2020-12-19T02:40:38Z" duration-ms="7683">
+    <test started-at="2020-12-19T04:22:31Z" name="Test" finished-at="2020-12-19T04:22:38Z" duration-ms="6930">
       <class name="com.busyqa.testScripts.TS_LoginPage_001">
-        <test-method is-config="true" signature="init()[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@1b45c0e]" started-at="2020-12-19T02:40:26Z" name="init" finished-at="2020-12-19T02:40:30Z" duration-ms="4124" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@1b45c0e]" started-at="2020-12-19T04:22:27Z" name="init" finished-at="2020-12-19T04:22:31Z" duration-ms="4070" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method is-config="true" signature="loginInit()[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@1b45c0e]" started-at="2020-12-19T02:40:30Z" name="loginInit" finished-at="2020-12-19T02:40:33Z" duration-ms="3298" status="PASS">
+        <test-method is-config="true" signature="loginInit()[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@1b45c0e]" started-at="2020-12-19T04:22:31Z" name="loginInit" finished-at="2020-12-19T04:22:34Z" duration-ms="2588" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInit -->
-        <test-method signature="test_login_1(java.lang.String, java.lang.String)[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@1b45c0e]" started-at="2020-12-19T02:40:33Z" name="test_login_1" data-provider="invalidUserPass" finished-at="2020-12-19T02:40:34Z" duration-ms="820" status="PASS">
+        <test-method signature="test_login_1(java.lang.String, java.lang.String)[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@1b45c0e]" started-at="2020-12-19T04:22:34Z" name="test_login_1" data-provider="invalidUserPass" finished-at="2020-12-19T04:22:35Z" duration-ms="789" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_login_1 -->
-        <test-method signature="test_login_1(java.lang.String, java.lang.String)[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@1b45c0e]" started-at="2020-12-19T02:40:34Z" name="test_login_1" data-provider="invalidUserPass" finished-at="2020-12-19T02:40:36Z" duration-ms="1420" status="PASS">
+        <test-method signature="test_login_1(java.lang.String, java.lang.String)[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@1b45c0e]" started-at="2020-12-19T04:22:35Z" name="test_login_1" data-provider="invalidUserPass" finished-at="2020-12-19T04:22:36Z" duration-ms="798" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_login_1 -->
-        <test-method signature="test_login_1(java.lang.String, java.lang.String)[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@1b45c0e]" started-at="2020-12-19T02:40:36Z" name="test_login_1" data-provider="invalidUserPass" finished-at="2020-12-19T02:40:37Z" duration-ms="922" status="PASS">
+        <test-method signature="test_login_1(java.lang.String, java.lang.String)[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@1b45c0e]" started-at="2020-12-19T04:22:36Z" name="test_login_1" data-provider="invalidUserPass" finished-at="2020-12-19T04:22:36Z" duration-ms="731" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_login_1 -->
-        <test-method signature="test_login_2(java.lang.String, java.lang.String)[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@1b45c0e]" started-at="2020-12-19T02:40:37Z" name="test_login_2" data-provider="validUserPass" finished-at="2020-12-19T02:40:38Z" duration-ms="1133" status="PASS">
+        <test-method signature="test_login_2(java.lang.String, java.lang.String)[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@1b45c0e]" started-at="2020-12-19T04:22:36Z" name="test_login_2" data-provider="validUserPass" finished-at="2020-12-19T04:22:38Z" duration-ms="1931" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,7 +115,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_login_2 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@1b45c0e]" started-at="2020-12-19T02:40:38Z" name="teardown" finished-at="2020-12-19T02:40:39Z" duration-ms="1031" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.busyqa.testScripts.TS_LoginPage_001@1b45c0e]" started-at="2020-12-19T04:22:38Z" name="teardown" finished-at="2020-12-19T04:22:39Z" duration-ms="703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

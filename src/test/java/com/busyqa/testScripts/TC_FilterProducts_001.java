@@ -16,6 +16,7 @@ import org.testng.Assert;
 import org.testng.annotations.*;
 
 import com.busyqa.core.BaseClass;
+import com.busyqa.pageFactory.MyntraHomeFactory;
 import com.busyqa.pageObjects.MyntraProductPage;
 import com.busyqa.utils.Utilities;
 import com.relevantcodes.extentreports.LogStatus;
@@ -25,11 +26,21 @@ public class TC_FilterProducts_001 extends BaseClass{
 	List<WebElement> productprices; /*Holds the list of the product prices displayed on the page*/
 	WebElement filterDisplayDiv; /*Holds the div that displays the selected filters*/
 	int random;
-	
+	MyntraHomeFactory mhomeObj;
 	@Test
 	public void priceFilterTest() throws InterruptedException
 	{		
-		driver.get("https://www.myntra.com/men-casual-shirts?plaEnabled=false");
+		mhomeObj=new MyntraHomeFactory(driver);
+
+		
+		action.moveToElement(mhomeObj.getMenLink()).perform();
+			logObject.info("Hovering Mouse to Men link in the menu");
+			extentObject.log(LogStatus.INFO, "Moving Mouse to the Men link in the menu ");
+		
+		mhomeObj.getCasualShirtLink().click();
+			logObject.info("Selecting Casual Shirts from dropdown");
+			extentObject.log(LogStatus.INFO, "Selecting Casual Shirts from dropdown");
+			
 		random=(new Random()).nextInt(MyntraProductPage.getNumberOfPriceListFilters(driver)-1); //Generate a random number from 0 to (number of pricefilters)-1		
 		MyntraProductPage.getListOfPriceFilterCheckbox(driver).get(random).click(); 
 		selectedPriceValues = MyntraProductPage.getDisplayedTextOnPriceFilters(driver);

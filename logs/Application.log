@@ -1,14 +1,14 @@
-18/12/2020 21:40:33 qaLogger Home page Webelements intantiated
-18/12/2020 21:40:33 qaLogger login Page Webelements instantiated
-18/12/2020 21:40:33 qaLogger Entering Username user
-18/12/2020 21:40:34 qaLogger Entering Password pass
-18/12/2020 21:40:34 qaLogger Sign in button clicked
-18/12/2020 21:40:34 qaLogger Entering Username user@gmail.com
-18/12/2020 21:40:34 qaLogger Entering Password 
-18/12/2020 21:40:36 qaLogger Sign in button clicked
-18/12/2020 21:40:36 qaLogger Entering Username 
-18/12/2020 21:40:36 qaLogger Entering Password password
-18/12/2020 21:40:37 qaLogger Sign in button clicked
-18/12/2020 21:40:37 qaLogger Entering Username username@hello.com
-18/12/2020 21:40:37 qaLogger Entering Password password
-18/12/2020 21:40:38 qaLogger Sign in button clicked
+18/12/2020 23:22:34 qaLogger Home page Webelements intantiated
+18/12/2020 23:22:34 qaLogger login Page Webelements instantiated
+18/12/2020 23:22:34 qaLogger Entering Username user
+18/12/2020 23:22:34 qaLogger Entering Password pass
+18/12/2020 23:22:35 qaLogger Sign in button clicked
+18/12/2020 23:22:35 qaLogger Entering Username user@gmail.com
+18/12/2020 23:22:35 qaLogger Entering Password 
+18/12/2020 23:22:36 qaLogger Sign in button clicked
+18/12/2020 23:22:36 qaLogger Entering Username 
+18/12/2020 23:22:36 qaLogger Entering Password password
+18/12/2020 23:22:36 qaLogger Sign in button clicked
+18/12/2020 23:22:36 qaLogger Entering Username username@hello.com
+18/12/2020 23:22:37 qaLogger Entering Password password
+18/12/2020 23:22:38 qaLogger Sign in button clicked

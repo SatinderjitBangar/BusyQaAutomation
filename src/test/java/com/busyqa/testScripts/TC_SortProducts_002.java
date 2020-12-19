@@ -46,7 +46,7 @@ public class TC_SortProducts_002 extends BaseClass{
 			logObject.info("Getting all the prices on the page and ensuring if its in desc order");
 			extentObject.log(LogStatus.INFO, "Getting all the prices on the page and ensuring if its in desc order");
 		Assert.assertTrue(Utilities.verifyOrder(MyntraProductPage.getPricesOfProductsDisplayed(driver),"desc"));
-			extentObject.log(LogStatus.ERROR, "Product prices are not sorted by the descending order");
+			
 	}
 	
 	@Test (dependsOnMethods = {"highToLow"})
@@ -66,7 +66,7 @@ public class TC_SortProducts_002 extends BaseClass{
 			logObject.info("Getting all the prices on the page and ensuring if its in asc order");
 			extentObject.log(LogStatus.INFO, "Getting all the prices on the page and ensuring if its in asc order");
 		Assert.assertTrue(Utilities.verifyOrder(MyntraProductPage.getPricesOfProductsDisplayed(driver),"asc"));
-			extentObject.log(LogStatus.ERROR, "Product prices are not sorted by the ascending order");
+			
 	  }
 
 }

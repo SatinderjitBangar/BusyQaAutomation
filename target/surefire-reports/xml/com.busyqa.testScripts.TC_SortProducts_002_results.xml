@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="13.228">
+           time="13.111">
   <properties />
   
   
-            <testcase name="highToLow" time="8.367" classname="com.busyqa.testScripts.TC_SortProducts_002" />
-                <testcase name="lowtoHigh" time="4.861" classname="com.busyqa.testScripts.TC_SortProducts_002" />
+            <testcase name="lowtoHigh" time="4.863" classname="com.busyqa.testScripts.TC_SortProducts_002" />
+                <testcase name="highToLow" time="8.248" classname="com.busyqa.testScripts.TC_SortProducts_002" />
       
 </testsuite>

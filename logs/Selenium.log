@@ -1,34 +1,34 @@
-21:40:33,884 DEBUG qaLogger:25 - Home page Webelements intantiated
-21:40:33,885 DEBUG qaLogger:27 - login Page Webelements instantiated
-21:40:33,982  INFO qaLogger:52 - Entering Username user
-21:40:34,069  INFO qaLogger:56 - Entering Password pass
-21:40:34,705 DEBUG qaLogger:58 - Sign in button clicked
-21:40:34,715 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
-21:40:34,715 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
-21:40:34,715 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-21:40:34,715 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-21:40:34,715 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-21:40:34,820  INFO qaLogger:52 - Entering Username user@gmail.com
-21:40:34,896  INFO qaLogger:56 - Entering Password 
-21:40:36,148 DEBUG qaLogger:58 - Sign in button clicked
-21:40:36,153 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
-21:40:36,153 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
-21:40:36,153 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-21:40:36,153 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-21:40:36,153 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-21:40:36,252  INFO qaLogger:52 - Entering Username 
-21:40:36,339  INFO qaLogger:56 - Entering Password password
-21:40:37,087 DEBUG qaLogger:58 - Sign in button clicked
-21:40:37,096 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
-21:40:37,099 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
-21:40:37,100 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-21:40:37,100 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-21:40:37,100 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-21:40:37,202  INFO qaLogger:52 - Entering Username username@hello.com
-21:40:37,287  INFO qaLogger:56 - Entering Password password
-21:40:38,243 DEBUG qaLogger:58 - Sign in button clicked
-21:40:38,251 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
-21:40:38,251 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
-21:40:38,251 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-21:40:38,252 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-21:40:38,252 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:22:34,446 DEBUG qaLogger:25 - Home page Webelements intantiated
+23:22:34,447 DEBUG qaLogger:27 - login Page Webelements instantiated
+23:22:34,546  INFO qaLogger:52 - Entering Username user
+23:22:34,633  INFO qaLogger:56 - Entering Password pass
+23:22:35,237 DEBUG qaLogger:58 - Sign in button clicked
+23:22:35,246 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+23:22:35,246 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+23:22:35,247 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+23:22:35,247 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:22:35,247 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:22:35,354  INFO qaLogger:52 - Entering Username user@gmail.com
+23:22:35,430  INFO qaLogger:56 - Entering Password 
+23:22:36,058 DEBUG qaLogger:58 - Sign in button clicked
+23:22:36,063 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+23:22:36,063 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+23:22:36,063 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+23:22:36,063 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:22:36,063 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:22:36,160  INFO qaLogger:52 - Entering Username 
+23:22:36,244  INFO qaLogger:56 - Entering Password password
+23:22:36,806 DEBUG qaLogger:58 - Sign in button clicked
+23:22:36,815 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+23:22:36,816 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+23:22:36,817 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+23:22:36,817 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:22:36,817 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+23:22:36,934  INFO qaLogger:52 - Entering Username username@hello.com
+23:22:37,029  INFO qaLogger:56 - Entering Password password
+23:22:38,769 DEBUG qaLogger:58 - Sign in button clicked
+23:22:38,773 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_CA", UTF-8, parsed); will try to load it.
+23:22:38,773 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_CA.ftl"): Not found
+23:22:38,774 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+23:22:38,774 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+23:22:38,774 DEBUG cache:45 - Loading template for "Extent.ftl"("en_CA", UTF-8, parsed) from "jar:file:/C:/Users/Satt-E/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
