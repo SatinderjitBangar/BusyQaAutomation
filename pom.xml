@@ -127,30 +127,101 @@
 
 
 	</dependencies>
-
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>3.0.0-M5</version>
-				<configuration>
-					<useSystemClassLoader>false</useSystemClassLoader>
-					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
-					</suiteXmlFiles>
-				</configuration>
-			</plugin>
-		</plugins>
-		<testResources>
-			<testResource>
-				<directory>resources/properties</directory>
-				<includes>
-					<include>log4j.properties</include>
-				</includes>
-			</testResource>
-		</testResources>
-	</build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.0.0-M5</version>
+						<configuration>
+
+
+							<suiteXmlFiles>
+								<suiteXMLFile>testNG_Xmls/testng.xml</suiteXMLFile>
+								<suiteXMLFile>testNG_Xmls/testng_login.xml</suiteXMLFile>
+							</suiteXmlFiles>
+
+						</configuration>
+					</plugin>
+				</plugins>
+				<testResources>
+					<testResource>
+						<directory>resources/properties</directory>
+						<includes>
+							<include>log4j.properties</include>
+						</includes>
+					</testResource>
+				</testResources>
+			</build>
+	
+	
+	
+	
+	<!-- Below code is to use profiles via pom.xlm to execute use clean test -P<profile Id>  -->
+	<!-- 
+	<profiles>
+		<profile>
+			<id>Login_Page</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.0.0-M5</version>
+						<configuration>
+
+
+							<suiteXmlFiles>
+								<suiteXMLFile>testNG_Xmls/testng_login.xml</suiteXMLFile>
+							</suiteXmlFiles>
+
+						</configuration>
+					</plugin>
+				</plugins>
+				<testResources>
+					<testResource>
+						<directory>resources/properties</directory>
+						<includes>
+							<include>log4j.properties</include>
+						</includes>
+					</testResource>
+				</testResources>
+			</build>
+
+		</profile>
+		
+				<profile>
+			<id>Myntra_Page</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-surefire-plugin</artifactId>
+						<version>3.0.0-M5</version>
+						<configuration>
+
+
+							<suiteXmlFiles>
+								<suiteXMLFile>testNG_Xmls/testng.xml</suiteXMLFile>
+							</suiteXmlFiles>
+
+						</configuration>
+					</plugin>
+				</plugins>
+				<testResources>
+					<testResource>
+						<directory>resources/properties</directory>
+						<includes>
+							<include>log4j.properties</include>
+						</includes>
+					</testResource>
+				</testResources>
+			</build>
+
+		</profile>
+		
+	</profiles>
+ -->
 
 
 </project>

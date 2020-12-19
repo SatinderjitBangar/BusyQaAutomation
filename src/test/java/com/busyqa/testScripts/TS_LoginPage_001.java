@@ -15,6 +15,7 @@ public class TS_LoginPage_001 extends BaseClass{
 	
 	LoginPageFactory loginObject;
 	HomePageObject homeObject;
+	
 	@BeforeClass
 	public void loginInit()
 	{
@@ -35,12 +36,6 @@ public class TS_LoginPage_001 extends BaseClass{
 		Assert.assertNotEquals(actualTitle,"My account - My Store");
 	}
 	
-	@AfterClass
-	public void loginTeardown()
-	{
-		driver.get("https://www.myntra.com/men-casual-shirts?plaEnabled=false");
-	}
-	
 	@Test(dataProvider = "validUserPass",dataProviderClass = Utilities.class)
 	public void test_login_2(String username, String password) {
 		extentObject.log(LogStatus.INFO, "Login Test started with username "+username+" and password "+password);
@@ -51,7 +46,6 @@ public class TS_LoginPage_001 extends BaseClass{
 	
 	public void doLogin(String username, String password)
 	{
-		
 		loginObject.getUsernameTextbox().clear();
 		loginObject.getUsernameTextbox().sendKeys(username);
 		extentObject.log(LogStatus.INFO, "Entered Username");
@@ -62,8 +56,7 @@ public class TS_LoginPage_001 extends BaseClass{
 			logObject.info("Entering Password " + password);
 		loginObject.getSignInButton().click();
 			logObject.debug("Sign in button clicked");
-			extentObject.log(LogStatus.INFO, "Submit Button Clicked");
-			
+			extentObject.log(LogStatus.INFO, "Submit Button Clicked");		
 	}
 	
 }

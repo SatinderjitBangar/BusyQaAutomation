@@ -13,7 +13,6 @@ public class LoginPageObject {
 		LoginPageObject.driver=driver;
 	}
 
-	
 	public WebElement getUsernameTextbox() {
 		return driver.findElement(By.id("email"));
 	}

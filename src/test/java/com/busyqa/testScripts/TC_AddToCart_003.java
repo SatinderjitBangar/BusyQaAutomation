@@ -43,7 +43,7 @@ public class TC_AddToCart_003 extends BaseClass{
 		
 
 		
-		driver.findElement(By.xpath("//div[contains(text(),'ADD TO BAG')]")).click();
+		driver.findElement(By.xpath("//*[contains(text(),'ADD TO BAG')]")).click();
 		WebDriverWait wait = new WebDriverWait(driver,30);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Please select a size')]")));
 		logObject.info("Clicking add to cart without selecting size and waiting for error to show up");
@@ -59,7 +59,7 @@ public class TC_AddToCart_003 extends BaseClass{
 		
 		
 		addedProductDesc.add(driver.findElement(By.className("pdp-name")).getText()); 
-		driver.findElement(By.xpath("//div[contains(text(),'ADD TO BAG')]")).click();
+		driver.findElement(By.xpath("//*[contains(text(),'ADD TO BAG')]")).click();
 		logObject.info("Clicking on add to cart button and saving the product desc in a variable");
 		extentObject.log(LogStatus.INFO, "Clicking on add to cart button and saving the product desc in a variable");
 		

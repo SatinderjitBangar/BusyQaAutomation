@@ -4,13 +4,13 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.249">
+           time="4.625">
   <properties />
   
   
-            <testcase name="test_login_1" time="0.762" classname="com.busyqa.testScripts.TS_LoginPage_001" />
-                <testcase name="test_login_2" time="1.424" classname="com.busyqa.testScripts.TS_LoginPage_001" />
-                <testcase name="test_login_1" time="1.053" classname="com.busyqa.testScripts.TS_LoginPage_001" />
-                <testcase name="test_login_1" time="1.010" classname="com.busyqa.testScripts.TS_LoginPage_001" />
+            <testcase name="test_login_1" time="0.880" classname="com.busyqa.testScripts.TS_LoginPage_001" />
+                <testcase name="test_login_1" time="0.909" classname="com.busyqa.testScripts.TS_LoginPage_001" />
+                <testcase name="test_login_1" time="1.138" classname="com.busyqa.testScripts.TS_LoginPage_001" />
+                <testcase name="test_login_2" time="1.698" classname="com.busyqa.testScripts.TS_LoginPage_001" />
       
 </testsuite>

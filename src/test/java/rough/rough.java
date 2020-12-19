@@ -28,13 +28,17 @@ List<String> cartProductDesc=new ArrayList<String>();
 	{
 		System.setProperty("webdriver.chrome.driver","D:\\EclipseJavaIDE\\BusyQA\\automation_project\\resources\\executables\\chromedriver.exe");
 		driver=new ChromeDriver();
-		driver.get("https://www.myntra.com/men-casual-shirts");
+		driver.get("https://www.myntra.com/shirts/gant/gant-men-red--navy-blue-regular-fit-checked-casual-shirt/13170812/buy");
 		String defaultWindowHandle= driver.getWindowHandle();
 		MyntraProductPage.getPricesOfProductsDisplayed(driver).get(3).click();
 		for(String winHandle : driver.getWindowHandles()){
 		    driver.switchTo().window(winHandle);
 		}
 		
+		
+		System.out.println(driver.findElement(By.xpath("//div[contains(text(),'ADD TO BAG')]")).getText());
+		driver.quit();
+		/*
 		driver.findElement(By.xpath("//div[contains(text(),'ADD TO BAG')]")).click();
 		WebDriverWait wait = new WebDriverWait(driver,30);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Please select a size')]")));
@@ -52,7 +56,7 @@ List<String> cartProductDesc=new ArrayList<String>();
 		Assert.assertTrue(driver.getCurrentUrl().equals("https://www.myntra.com/checkout/cart"));
 		driver.findElement(By.linkText("Men Brown & Blue Regular Fit Checked Pure Cotton Casual Shirt")).getText();
 		
-		
+		*/
 	}
 	
 	public void addToCart()
